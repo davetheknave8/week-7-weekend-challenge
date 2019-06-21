@@ -1,0 +1,50 @@
+table{
+    border: solid;
+    width: 80%;
+}
+
+thead td{
+    border: solid;
+    background-color: blanchedalmond;
+    font-weight: bold;
+}
+
+thead tr{
+    height: 40px;
+}
+
+tbody{
+    border: solid;
+}
+
+td{
+    border: solid;
+    width: 10%;
+}
+
+tbody tr:nth-child(even){
+    background-color: lightgray;
+}
+
+tbody tr{
+    height: 35px;
+}
+
+#cost{
+    text-align: right;
+    font-weight: bold;
+}
+
+.costRed{
+    background-Color: red;
+}
+
+header{
+    background-color: grey;
+    color: white;
+    text-align: center;
+}
+
+#addEmployee{
+    text-align: center;
+}
