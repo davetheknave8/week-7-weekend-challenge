@@ -75,9 +75,10 @@ function deleteItem(event){
             $('#monthlyCost').append(`${monthlyCost}`);
             $('#yearlyCost').empty()
             $('#yearlyCost').append(`${yearlyCost}`)
-            employees.pop(currentEmployee);
+            employees.splice(employees.indexOf(currentEmployee), 1);
             displaySalary();
             costRed();
+            return true;
         }
     }
 }
